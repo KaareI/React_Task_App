@@ -1,5 +1,10 @@
 .App {
-  text-align: center;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+  margin: 2rem 20rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .App-logo {
@@ -35,4 +40,11 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+@media (max-width: 1110px) {
+  .App {
+    margin: auto;
+  }
+
 }
